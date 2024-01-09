@@ -11,7 +11,7 @@ Under the hood, this plugin uses [`sqlite3`](https://www.npmjs.com/package/sqlit
 ## Install
 
 ```
-npm install fastify-sqlite
+npm install fastify-sqlite-with-types
 ```
 
 ### Compatibility
@@ -23,7 +23,7 @@ npm install fastify-sqlite
 ## Usage
 
 ```js
-const fastifySqlite = require("fastify-sqlite");
+const fastifySqlite = require("fastify-sqlite-with-types");
 
 async function main() {
   const app = fastify();
@@ -50,7 +50,7 @@ to enhance the Database instance. It has many convenient utilities such as `migr
 You can pass the following options to the plugin:
 
 ```js
-await app.register(require("fastify-sqlite"), {
+await app.register(require("fastify-sqlite-with-types"), {
   promiseApi: true, // the DB instance supports the Promise API. Default false
   name: "mydb", // optional decorator name. Default null
   verbose: true, // log sqlite3 queries as trace. Default false
