@@ -1,6 +1,7 @@
 {
-  "name": "fastify-sqlite",
-  "version": "1.1.0",
+  "name": "fastify-sqlite-with-types",
+  "auther": "Yoav Gal",
+  "version": "1.0.0",
   "description": "Fastify plugin to connect to a SQLite database",
   "main": "index.js",
   "types": "types/index.d.ts",
@@ -9,7 +10,8 @@
     "lint:fix": "standard --fix",
     "test": "npm run test:unit && npm run test:typescript",
     "test:typescript": "tsd",
-    "test:unit": "tap test/**/*.test.js"
+    "test:unit": "tap test/**/*.test.js",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,9 @@
     "in-memory",
     "sql",
     "sqlite",
-    "sqlite3"
+    "sqlite3",
+    "typescript",
+    "types"
   ],
   "author": "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm)",
   "funding": "https://github.com/Eomm/fastify-sqlite?sponsor=1",
