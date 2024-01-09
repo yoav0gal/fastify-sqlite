@@ -1,6 +1,5 @@
 {
-  "name": "fastify-sqlite-with-types",
-  "auther": "Yoav Gal",
+  "name": "fastify-sqlite-w",
   "version": "1.0.0",
   "description": "Fastify plugin to connect to a SQLite database",
   "main": "index.js",
@@ -15,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eomm/fastify-sqlite.git"
+    "url": "git+https://github.com/yoav0gal/fastify-sqlite/tree/publishToNpm"
   },
   "keywords": [
     "fastify",
@@ -28,13 +27,13 @@
     "typescript",
     "types"
   ],
-  "author": "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm)",
+  "author": "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm) and yoav gal (yoav0gal@gmai.com)",
   "funding": "https://github.com/Eomm/fastify-sqlite?sponsor=1",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Eomm/fastify-sqlite/issues"
+    "url": "https://github.com/yoav0gal/fastify-sqlite/tree/publishToNpm/issues"
   },
-  "homepage": "https://github.com/Eomm/fastify-sqlite#readme",
+  "homepage": "https://github.com/yoav0gal/fastify-sqlite/tree/publishToNpm#readme",
   "devDependencies": {
     "@fastify/pre-commit": "^2.0.2",
     "@types/node": "^18.0.0",
