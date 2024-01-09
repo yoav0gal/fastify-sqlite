@@ -1,6 +1,6 @@
 {
   "name": "fastify-sqlite-w",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fastify plugin to connect to a SQLite database",
   "main": "index.js",
   "types": "types/index.d.ts",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yoav0gal/fastify-sqlite/tree/publishToNpm"
+    "url": "git+https://github.com/yoav0gal/fastify-sqlite.git"
   },
   "keywords": [
     "fastify",
