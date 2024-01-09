@@ -1,5 +1,5 @@
 {
-  "name": "fastify-sqlite-with-types",
+  "name": "typed-fastify-sqlite",
   "version": "1.0.0",
   "description": "Fastify plugin to connect to a SQLite database",
   "main": "index.js",
